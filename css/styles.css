@@ -1,0 +1,34 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+body {
+	color: #fff;
+	font-family: sans-serif;
+}
+.container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.slide {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.slide.slide1 {
+	background: url(../img/base_featurecan.jpg) #000;
+}
+.slide.slide2 {
+	background: url(../img/sprite_cherry_zero_featurecan.jpg) #000;
+	left: 50%;
+}
+.slide.slide1,
+.slide.slide2 {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+}
